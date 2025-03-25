@@ -124,7 +124,7 @@ function main() {
 
   const resultAdd = matrix1.add(matrix2);
   const resultSub = matrix1.subtract(matrix2);
-  const resultMult = matrix1.multiply(matrix2);
+  // const resultMult = matrix1.multiply(matrix2);
 
   const outputAddPath = path.resolve(
     __dirname,
@@ -141,7 +141,7 @@ function main() {
 
   resultAdd.saveResult(outputAddPath);
   resultSub.saveResult(outputSubPath);
-  resultMult.saveResult(outputMultPath);
+  // resultMult.saveResult(outputMultPath);
 
   console.log("Processed successfully. Output saved to sample_results folder.");
 }
